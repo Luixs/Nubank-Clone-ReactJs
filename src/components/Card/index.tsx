@@ -1,7 +1,7 @@
 import React, { ReactElement } from "react";
 
 //----- IMPORTS
-import { Container, Content, Strip, TextCVV, View, Text, ViewInformation} from './styles'
+import { Container, Content, Strip, TextCVV, View, Text, ViewInformation, TextBackNumberCard} from './styles'
 //----- INTERFACE
 interface propsCard{
     data:{
@@ -22,7 +22,7 @@ const Card: React.FC<propsCard> = ({ data, back, icon }) => {
                 ? 
                 <Strip>
                     <TextCVV>{data.cvv}</TextCVV>
-                </Strip>    
+                </Strip>
                 :
                 <ViewInformation>
                     <View>

@@ -25,7 +25,9 @@ export const Strip = styled.View`
 export const TextCVV = styled.Text`
     margin-right: 40px;
 `
-
+export const TextBackNumberCard = styled.Text`
+    color: 'red';
+`
 export const View = styled.View`
     width: 80%;
     margin-top: 50px;
@@ -40,12 +42,6 @@ export const Text = styled.Text<propsText>`
     font-weight: ${({bold}) => bold ? 'bold' : 'normal'};
 `
 
-
-interface propsText{
-    fontSize: string
-    bold?: boolean
-}
-
 export const ViewInformation= styled.View`
     width: 100%
     flex-direction: row;
@@ -53,3 +49,9 @@ export const ViewInformation= styled.View`
     justify-content: space-between;
     padding: 14px
 `
+
+
+interface propsText{
+    fontSize: string
+    bold?: boolean
+}

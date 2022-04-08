@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Animated } from "react-native";
+import { Animated, TouchableOpacity } from "react-native";
 //----------- IMPORTS
 import { Container, Title, Subtitle, Content, Button, TextButton, Header, View, ScrowView } from './styles'
 import {Card, Input} from '../../components'
