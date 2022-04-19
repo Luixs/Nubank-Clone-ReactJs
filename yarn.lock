@@ -6039,7 +6039,7 @@
     "react-freeze" "^1.0.0"
     "warn-once" "^0.1.0"
 
-"react-native-spinkit@>= 1.5.1":
+"react-native-spinkit@^1.5.1", "react-native-spinkit@>= 1.5.1":
   "integrity" "sha512-XkTgP4e+/MZpbI1GdZTIEQ+6WeMWQT4duWnSiXaaVW7py0rtaBLswtAEA6uXQGUhnxMnPWZhbLz7QponpH3ciQ=="
   "resolved" "https://registry.npmjs.org/react-native-spinkit/-/react-native-spinkit-1.5.1.tgz"
   "version" "1.5.1"
